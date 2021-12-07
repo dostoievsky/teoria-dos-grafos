@@ -262,6 +262,9 @@ Rz(18+8+9+9+0) x 1000
 Rz(27+12) x 1000
 Rz 39.000
 
+
+
+
 ## QUESTÃO SETE
 
 Para que todo posto de vacina seja apoiado por pelo menos um posto de coordenação,
@@ -270,4 +273,15 @@ de forma que exista um valor mínimo de postos de coordenação, devemos buscar 
 Por fim, modela-se um grafo onde os vértices representam postos de vacinação ou controle,
 e suas arestas são as vias de fornecimento.
 
+
+
+
+## QUESTÃO OITO
+
+Para que cada aluno faça apenas um exame por dia, modelamos um grafo cujo vértices
+representam os exames, e, suas arestas, um conflito, que simboliza um aluno compartilhando
+um exame no mesmo dia. Dado esse grafo, buscamos pelo maior conjunto indepentende de vértices,
+que é o maior numero de exames que podem ocorrer num mesmo dia de forma que cada aluno fez
+apenas um. Os grafos eleminados devem ser alocados nos dias seguintes, de forma que são
+necessários quatro dias para que todos os exames sejam realizados.
 
