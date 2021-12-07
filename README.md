@@ -1,16 +1,55 @@
 # LISTA UM
 
-1. Para a rede abaixo, nas quais os rótulos apresentam os limites mínimos e máximos para o fluxo em cada arco,
-  adicione (se necessário) vértices e arcos artificiais para que todo vértice possua fluxo conservativo,
-  (a) determine um fluxo viável e (b) o valor do fluxo máximo, pela aplicação do algoritmo de Ford & Fulkerson.
-  Prove que o valor do fluxo máximo é ótimo, apresentando o corte mínimo associado.
+## QUESTÃO UM
 
-##       Fluxo Viável
-| -------------  |:-----:|
-| Arco           | Fluxo |
+###     Fluxo Viável
+|      Arco      | Fluxo |
 | -------------  |:-----:|
 | ( V(s), V(1) ) |   0   |
 | ( V(s), V(2) ) |   3   |
 | ( V(s), V(3) ) |   0   |
 | ( V(1), V(2) ) |   6   |
+| ( V(1), V(4) ) |   0   |
+| ( V(1), V(5) ) |   0   |
+| ( V(2), V(4) ) |  12   |
+| ( V(3), V(1) ) |   2   |
+| ( V(3), V(7) ) |   0   |
+| ( V(4), V(3) ) |   2   |
+| ( V(4), V(6) ) |  10   |
+| ( V(5), V(2) ) |   3   |
+| ( V(5), V(t) ) |   0   |
+| ( V(6), V(5) ) |   3   |
+| ( V(6), V(7) ) |   4   |
+| ( V(6), V(t) ) |   3   |
+| ( V(7), V(1) ) |   4   |
+| ( V(7), V(t) ) |   0   |
+
+###   Fluxo Máximo
+|      Arco      | Fluxo |
+| -------------  |:-----:|
+| ( V(s), V(1) ) |  10   |
+| ( V(s), V(2) ) |   5   |
+| ( V(s), V(3) ) |  10   |
+| ( V(1), V(2) ) |   4   |
+| ( V(1), V(4) ) |   2   |
+| ( V(1), V(5) ) |  10   |
+| ( V(2), V(4) ) |  12   |
+| ( V(3), V(1) ) |   2   |
+| ( V(3), V(7) ) |  10   |
+| ( V(4), V(3) ) |   2   |
+| ( V(4), V(6) ) |  12   |
+| ( V(5), V(2) ) |   3   |
+| ( V(5), V(t) ) |   9   |
+| ( V(6), V(5) ) |   2   |
+| ( V(6), V(7) ) |   2   |
+| ( V(6), V(t) ) |   8   |
+| ( V(7), V(1) ) |   4   |
+| ( V(7), V(t) ) |   8   |
+
+|Capacidade do Corte Mín |
+| ---------------------- |
+|      X    =  {}        |
+|      X²   =  {}        |
+
+## QUESTÃO DOIS
 
