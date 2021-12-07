@@ -258,6 +258,7 @@ Q2 -> valor da solução : $39.000
 |    |    |    |    | **X** |
 |    |    | **X**   |    |    |
 |    | **X**   |    |    |    |
+
 Rz(18+8+9+9+0) x 1000
 Rz(27+12) x 1000
 Rz 39.000
@@ -278,10 +279,29 @@ e suas arestas são as vias de fornecimento.
 
 ## QUESTÃO OITO
 
-Para que cada aluno faça apenas um exame por dia, modelamos um grafo cujo vértices
+Para que cada aluno faça apenas um exame por dia, modelamos um grafo cujos vértices
 representam os exames, e, suas arestas, um conflito, que simboliza um aluno compartilhando
 um exame no mesmo dia. Dado esse grafo, buscamos pelo maior conjunto indepentende de vértices,
 que é o maior numero de exames que podem ocorrer num mesmo dia de forma que cada aluno fez
 apenas um. Os grafos eleminados devem ser alocados nos dias seguintes, de forma que são
 necessários quatro dias para que todos os exames sejam realizados.
+
+## QUESTÃO NOVE
+
+Para encontrar a menor quantidade de refrigeradores necessários para que os experimentos sejam
+realizados de forma segura, modelamos um grafo cujos vértices são os experimentos e, suas arestas,
+a temperatura de refrigeração comum entre cada amostra. Sendo assim, através dessa relação, pode-se
+encontrar o conjunto dominante entre as amostras, de forma que cada vértice de cada conjunto
+corresponde a um refrigerador.
+
+## QUESTÃO DEZ
+
+T1 - Vértice V - 1 e 3;
+T2 - Vértice V - 4 e 6;
+T3 - Vértice V - V e 5;
+T4 - Vértice V - V e 4;
+T5 = Vértice V - V é azul;
+
+
+
 
