@@ -286,7 +286,18 @@ que é o maior numero de exames que podem ocorrer num mesmo dia de forma que cad
 apenas um. Os grafos eleminados devem ser alocados nos dias seguintes, de forma que são
 necessários quatro dias para que todos os exames sejam realizados.
 
+
+
 ## QUESTÃO NOVE
+
+Conforme o método anterior, nesse grafo os vértices representam as crianças, e as arestas,
+denunciando conflitos, representam o horário em que as mesmas estão na creche. Sendo assim,
+basta encontrar a Clica maximal deste grafo, revelando o horário com maior presença de crianças
+na creche, e a quantidade de crianças é a quantidade de escaninhos mínima necessária.
+
+
+
+## QUESTÃO DEZ
 
 Para encontrar a menor quantidade de refrigeradores necessários para que os experimentos sejam
 realizados de forma segura, modelamos um grafo cujos vértices são os experimentos e, suas arestas,
@@ -294,7 +305,7 @@ a temperatura de refrigeração comum entre cada amostra. Sendo assim, através 
 encontrar o conjunto dominante entre as amostras, de forma que cada vértice de cada conjunto
 corresponde a um refrigerador.
 
-## QUESTÃO DEZ
+## QUESTÃO ONZE
 
 T1 - Vértice V - 1 e 3;
 T2 - Vértice V - 4 e 6;
@@ -302,6 +313,36 @@ T3 - Vértice V - V e 5;
 T4 - Vértice V - V e 4;
 T5 = Vértice V - V é azul;
 
+## QUESTÃO DOZE
 
+## QUESTÃO TREZE
+3 ARVORES GERADORAS
 
+O - O - O - O
+|   | \ | / |
+0 - 0 - 0 - 0
+ \|/
+  0
 
+1)
+0  0 - 0 - 0
+|          |
+0  0 - 0 - 0
+ \ |
+   0
+
+2)
+0   0 - 0 - 0
+|   |       |
+0   0   0 - 0
+  \ |
+    0
+
+3)
+0 - 0   0 - 0
+|   |   |   |
+0   0 - 0   0
+    |
+    0
+
+## QUESTÃO QUATORZE
