@@ -355,7 +355,7 @@ O---O---O---O
 ## QUESTÃO QUATORZE
 Esse grafo já é sua propria arvore geradora.
 
-## QUESTÃO 15
+## QUESTÃO QUINZE
 
 .........q
 ......../|
@@ -371,3 +371,71 @@ Esse grafo já é sua propria arvore geradora.
 .|..\./
 .M...J---e---d
 .......3...2
+
+## QUESTÃO DEZESSEIS
+
+.....1
+.....|
+....1|
+.....|
+.2...3...4
+.|.....7.|
+.|6......|6
+.|.......|
+.5...6---7
+.|.....2.|
+.|3......|3
+.|.......|
+.8---9---10
+...1...4
+
+## QUESTÃO DEZESSETE
+
+.........s
+......../|
+......./.|
+....../..|
+.k...m...g---b
+.|.......|...|
+.|2......|...|
+.|.......|...|
+.l...i---f...c
+.|\...../
+.|3\.../
+.|..\./
+.w...J---e---d
+
+## QUESTÃO DEZOITO
+
+.....1
+.....|
+.....|1
+.....|.7
+.2...3...4
+.|.......|
+.|6......|
+.|.....2.|
+.5...6---7
+.|.......|
+.|3......|3
+.|.1...1.|
+.8---9---10
+
+## QUESTÃO DEZENOVE
+
+L={
+  supper,
+  coding,
+  listening to music,
+  inspiration,
+  gaming,
+  coffe,
+  driving to home,
+  sleeping,
+  driving to work,
+  making music,
+  shopping
+}
+
+## QUESTÃO VINTE
+L={7,5,11,3,10,8,9,2}
